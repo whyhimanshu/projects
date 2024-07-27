@@ -2,10 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 int SnakeWaterGun(char you, char comp){
-    /*swg
-    sw
-    sg
-    wg*/
+    
     if (you==comp){
         return 0;
     }
