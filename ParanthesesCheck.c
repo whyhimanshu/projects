@@ -38,7 +38,7 @@ int ParenthesesCheck(char *arr)
 }
 int main()
 {
-    char arr[] = "((22+2)-4(4+4))";
+    char arr[] = "((22+2)-4(4+4))"; //WRITE YOUR EXPRESSION HERE FOR CHECKING
     int a = ParenthesesCheck(arr);
     printf("After checking we found :\n");
     if (a == true)
